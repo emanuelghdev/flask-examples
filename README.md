@@ -2,7 +2,7 @@
 
 Este repositorio incluye una colección de proyectos y ejemplos prácticos desarrollados con Flask, diseñados para aprender y experimentar diferentes patrones de diseño, arquitecturas y funcionalidades comunes en APIs RESTful y microservicios.
 
-## 📦 `API RESTful/`
+## 📦 API RESTful/
 
 Una API RESTful desarrollada con Flask de gestión de tareas, con documentación Swagger automática.
 
@@ -25,7 +25,7 @@ Por defecto, la API se ejecutará en http://localhost:5000
 
 ---
 
-## 📦 `microservicios/`
+## 📦 microservicios/
 
 Pequeño sistema compuesto por 5 microservicios en Flask, orquestados con Docker Compose.
 
