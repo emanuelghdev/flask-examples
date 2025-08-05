@@ -1,0 +1,49 @@
+services:
+  municipio:
+    build:
+      context: ./Servicio1
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - is-microservicios
+
+  geo:
+    build:
+      context: ./Servicio2
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    networks:
+      - is-microservicios
+
+  meteo:
+    build:
+      context: ./Servicio3
+      dockerfile: Dockerfile
+    ports:
+      - "5002:5002"
+    networks:
+      - is-microservicios
+
+  demo:
+    build:
+      context: ./Servicio4
+      dockerfile: Dockerfile
+    ports:
+      - "5003:5003"
+    networks:
+      - is-microservicios
+
+  orquestacion:
+    build:
+      context: ./Servicio5
+      dockerfile: Dockerfile
+    ports:
+      - "5004:5004"
+    networks:
+      - is-microservicios
+
+networks:
+  is-microservicios:
+    driver: bridge

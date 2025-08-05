@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Flask instance folder
+instance/
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode settings (opcional, si usas VSCode)
+.vscode/
+
+# Docker-related files (si generas imágenes o logs locales, puedes ignorarlos)
+docker-compose.override.yml
+*.log
+
+# Jupyter checkpoints (por si acaso)
+.ipynb_checkpoints/
+
+# Mac OS metadata
+.DS_Store
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Pipenv, Poetry, PDM (dejar si usas, si no comentar)
+#Pipfile.lock
+#poetry.lock
+#pdm.lock
+
+# PyCharm
+.idea/
